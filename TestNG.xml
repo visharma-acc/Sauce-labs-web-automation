@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--   <suite name="Practice Suite">
+ <test name="Test Basics 1">
+      <parameter name="browser" value="firefox"/>
+      <classes>
+      <class name="com.inet.practiceCases.GoogleSearchTest"/>
+      </classes>
+  </test> 
+ </suite> -->
+ 
+ <suite name="MyTestSuite">
+    <test name="MyTestCase">
+        <classes>
+            <class name="com.inet.practice.testCases.GoogleSearchTest"/>
+             <methods>
+                <include name="test1"/>
+            </methods>
+        </classes>
+    </test>
+</suite>
