@@ -1,0 +1,324 @@
+2024-07-02 17:09:36.242 [main] INFO  com.inet.saucelabs.testCases.SauceDemoPlaceorderTest - Starting test case adds lowest price item to cart and places order....
+2024-07-02 17:09:37.742 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2024-07-02 17:09:37.750 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-07-02 17:09:37.750 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-07-02 17:09:37.753 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3e3cd6fe
+2024-07-02 17:09:37.768 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-07-02 17:09:37.768 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+2024-07-02 17:09:37.769 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-07-02 17:09:37.770 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-07-02 17:09:37.770 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2024-07-02 17:09:37.771 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2024-07-02 17:09:37.771 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-07-02 17:09:37.772 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-07-02 17:09:37.773 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @56ac3a89
+2024-07-02 17:09:37.774 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2024-07-02 17:09:37.774 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2024-07-02 17:09:37.775 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 8527020032 bytes (maybe)
+2024-07-02 17:09:37.775 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\visharma\AppData\Local\Temp (java.io.tmpdir)
+2024-07-02 17:09:37.775 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-07-02 17:09:37.775 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2024-07-02 17:09:37.776 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2024-07-02 17:09:37.776 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-07-02 17:09:37.777 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2024-07-02 17:09:37.777 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-07-02 17:09:37.782 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-07-02 17:09:37.803 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-07-02 17:09:37.803 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-07-02 17:09:37.819 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-07-02 17:09:37.819 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-07-02 17:09:37.831 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-07-02 17:09:37.861 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2024-07-02 17:09:37.873 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-07-02 17:09:37.873 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-07-02 17:09:37.965 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+2024-07-02 17:09:37.965 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+2024-07-02 17:09:37.965 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-07-02 17:09:37.966 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2024-07-02 17:09:37.966 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2024-07-02 17:09:37.966 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-07-02 17:09:37.966 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-07-02 17:09:37.966 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-07-02 17:09:37.967 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-07-02 17:09:37.967 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-07-02 17:09:37.967 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-07-02 17:09:37.967 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-07-02 17:09:37.984 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-07-02 17:09:37.985 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-07-02 17:09:37.985 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-02 17:09:38.321 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 38592 (auto-detected)
+2024-07-02 17:09:38.323 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-07-02 17:09:38.323 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-07-02 17:09:38.341 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-07-02 17:09:38.342 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-07-02 17:09:38.591 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2024-07-02 17:09:38.630 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-07-02 17:09:38.630 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-07-02 17:09:38.630 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2077f9ce
+2024-07-02 17:09:38.674 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-07-02 17:09:38.674 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2024-07-02 17:09:38.674 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2024-07-02 17:09:38.675 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2024-07-02 17:09:38.675 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-07-02 17:09:41.663 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-07-02 17:09:42.336 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: get
+2024-07-02 17:09:42.337 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: get
+2024-07-02 17:09:42.341 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before navigating to URL: https://www.saucedemo.com/
+2024-07-02 17:09:46.521 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After navigating to URL: https://www.saucedemo.com/
+2024-07-02 17:09:46.522 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: get
+2024-07-02 17:09:46.522 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: get
+2024-07-02 17:09:46.522 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:46.522 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:46.524 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.id: user-name
+2024-07-02 17:09:46.571 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.id: user-name
+2024-07-02 17:09:46.572 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:46.573 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:46.574 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:46.574 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:46.575 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.id: password
+2024-07-02 17:09:46.604 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.id: password
+2024-07-02 17:09:46.604 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:46.604 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:46.604 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:46.605 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:46.605 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.id: login-button
+2024-07-02 17:09:46.651 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.id: login-button
+2024-07-02 17:09:46.652 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:46.652 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:46.653 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: sendKeys
+2024-07-02 17:09:46.654 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: sendKeys
+2024-07-02 17:09:46.654 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before sending keys to element.
+2024-07-02 17:09:46.806 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After sending keys to element.
+2024-07-02 17:09:46.806 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: sendKeys
+2024-07-02 17:09:46.807 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: sendKeys
+2024-07-02 17:09:46.807 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: sendKeys
+2024-07-02 17:09:46.807 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: sendKeys
+2024-07-02 17:09:46.807 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before sending keys to element.
+2024-07-02 17:09:46.828 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After sending keys to element.
+2024-07-02 17:09:46.828 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: sendKeys
+2024-07-02 17:09:46.828 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: sendKeys
+2024-07-02 17:09:46.828 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: click
+2024-07-02 17:09:46.829 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: click
+2024-07-02 17:09:46.829 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before clicking on element.
+2024-07-02 17:09:47.087 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After clicking on element.
+2024-07-02 17:09:47.087 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: click
+2024-07-02 17:09:47.087 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: click
+2024-07-02 17:09:47.091 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:47.091 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:47.091 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.xpath: //select[@class='product_sort_container']
+2024-07-02 17:09:47.125 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.xpath: //select[@class='product_sort_container']
+2024-07-02 17:09:47.125 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:47.125 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:47.125 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: isDisplayed
+2024-07-02 17:09:47.126 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: isDisplayed
+2024-07-02 17:09:47.183 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: isDisplayed
+2024-07-02 17:09:47.183 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: isDisplayed
+2024-07-02 17:09:47.184 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:47.184 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:47.184 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.xpath: //select[@class='product_sort_container']
+2024-07-02 17:09:47.205 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.xpath: //select[@class='product_sort_container']
+2024-07-02 17:09:47.205 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:47.205 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:47.206 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getTagName
+2024-07-02 17:09:47.206 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getTagName
+2024-07-02 17:09:47.206 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before getting the tag name of an element.
+2024-07-02 17:09:47.210 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After getting the tag name of an element: select
+2024-07-02 17:09:47.211 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getTagName
+2024-07-02 17:09:47.211 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getTagName
+2024-07-02 17:09:47.211 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getDomAttribute
+2024-07-02 17:09:47.212 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getDomAttribute
+2024-07-02 17:09:47.217 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getDomAttribute
+2024-07-02 17:09:47.217 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getDomAttribute
+2024-07-02 17:09:47.217 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: isEnabled
+2024-07-02 17:09:47.217 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: isEnabled
+2024-07-02 17:09:47.217 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before checking if element is enabled.
+2024-07-02 17:09:47.221 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After checking if element is enabled: true
+2024-07-02 17:09:47.221 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: isEnabled
+2024-07-02 17:09:47.221 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: isEnabled
+2024-07-02 17:09:47.223 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElements
+2024-07-02 17:09:47.223 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: findElements
+2024-07-02 17:09:47.223 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding elements within element: By.xpath: .//option[normalize-space(.) = "Price (low to high)"]
+2024-07-02 17:09:47.251 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding elements within element: By.xpath: .//option[normalize-space(.) = "Price (low to high)"]
+2024-07-02 17:09:47.251 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: findElements
+2024-07-02 17:09:47.252 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElements
+2024-07-02 17:09:47.252 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: isEnabled
+2024-07-02 17:09:47.252 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: isEnabled
+2024-07-02 17:09:47.252 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before checking if element is enabled.
+2024-07-02 17:09:47.255 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After checking if element is enabled: true
+2024-07-02 17:09:47.256 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: isEnabled
+2024-07-02 17:09:47.256 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: isEnabled
+2024-07-02 17:09:47.256 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: isSelected
+2024-07-02 17:09:47.256 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: isSelected
+2024-07-02 17:09:47.256 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before checking if element is selected.
+2024-07-02 17:09:47.259 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After checking if element is selected: false
+2024-07-02 17:09:47.259 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: isSelected
+2024-07-02 17:09:47.259 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: isSelected
+2024-07-02 17:09:47.259 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: click
+2024-07-02 17:09:47.259 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: click
+2024-07-02 17:09:47.259 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before clicking on element.
+2024-07-02 17:09:47.476 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After clicking on element.
+2024-07-02 17:09:47.476 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: click
+2024-07-02 17:09:47.476 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: click
+2024-07-02 17:09:47.477 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElements
+2024-07-02 17:09:47.477 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElements
+2024-07-02 17:09:47.477 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding elements by: By.xpath: //div[@class='pricebar']//div
+2024-07-02 17:09:47.530 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding elements by: By.xpath: //div[@class='pricebar']//div
+2024-07-02 17:09:47.531 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElements
+2024-07-02 17:09:47.531 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElements
+2024-07-02 17:09:47.531 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getText
+2024-07-02 17:09:47.531 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getText
+2024-07-02 17:09:47.531 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before getting text from element.
+2024-07-02 17:09:47.562 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After getting text from element: $7.99
+2024-07-02 17:09:47.562 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getText
+2024-07-02 17:09:47.563 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getText
+2024-07-02 17:09:47.563 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getText
+2024-07-02 17:09:47.563 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getText
+2024-07-02 17:09:47.563 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before getting text from element.
+2024-07-02 17:09:47.574 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After getting text from element: $9.99
+2024-07-02 17:09:47.574 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getText
+2024-07-02 17:09:47.574 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getText
+2024-07-02 17:09:47.574 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getText
+2024-07-02 17:09:47.574 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getText
+2024-07-02 17:09:47.575 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before getting text from element.
+2024-07-02 17:09:47.586 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After getting text from element: $15.99
+2024-07-02 17:09:47.586 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getText
+2024-07-02 17:09:47.586 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getText
+2024-07-02 17:09:47.586 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getText
+2024-07-02 17:09:47.586 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getText
+2024-07-02 17:09:47.587 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before getting text from element.
+2024-07-02 17:09:47.597 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After getting text from element: $15.99
+2024-07-02 17:09:47.597 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getText
+2024-07-02 17:09:47.597 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getText
+2024-07-02 17:09:47.597 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getText
+2024-07-02 17:09:47.597 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getText
+2024-07-02 17:09:47.598 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before getting text from element.
+2024-07-02 17:09:47.605 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After getting text from element: $29.99
+2024-07-02 17:09:47.605 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getText
+2024-07-02 17:09:47.605 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getText
+2024-07-02 17:09:47.605 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getText
+2024-07-02 17:09:47.605 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getText
+2024-07-02 17:09:47.606 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before getting text from element.
+2024-07-02 17:09:47.614 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After getting text from element: $49.99
+2024-07-02 17:09:47.614 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getText
+2024-07-02 17:09:47.614 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getText
+2024-07-02 17:09:47.614 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:47.615 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: findElement
+2024-07-02 17:09:47.615 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element within element: By.xpath: ..
+2024-07-02 17:09:47.630 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element within element: By.xpath: ..
+2024-07-02 17:09:47.630 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: findElement
+2024-07-02 17:09:47.630 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:47.631 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:47.631 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: findElement
+2024-07-02 17:09:47.631 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element within element: By.xpath: //following-sibling::button[contains(text(), 'Add to cart')]
+2024-07-02 17:09:47.665 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element within element: By.xpath: //following-sibling::button[contains(text(), 'Add to cart')]
+2024-07-02 17:09:47.665 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: findElement
+2024-07-02 17:09:47.666 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:47.666 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getText
+2024-07-02 17:09:47.666 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getText
+2024-07-02 17:09:47.666 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before getting text from element.
+2024-07-02 17:09:47.678 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After getting text from element: Add to cart
+2024-07-02 17:09:47.679 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getText
+2024-07-02 17:09:47.679 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getText
+2024-07-02 17:09:47.679 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: click
+2024-07-02 17:09:47.679 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: click
+2024-07-02 17:09:47.679 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before clicking on element.
+2024-07-02 17:09:47.903 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After clicking on element.
+2024-07-02 17:09:47.904 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: click
+2024-07-02 17:09:47.904 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: click
+2024-07-02 17:09:47.905 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:47.905 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:47.905 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.xpath: //a[@class='shopping_cart_link']
+2024-07-02 17:09:47.937 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.xpath: //a[@class='shopping_cart_link']
+2024-07-02 17:09:47.938 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:47.938 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:47.938 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: click
+2024-07-02 17:09:47.938 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: click
+2024-07-02 17:09:47.938 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before clicking on element.
+2024-07-02 17:09:48.189 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After clicking on element.
+2024-07-02 17:09:48.190 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: click
+2024-07-02 17:09:48.190 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: click
+2024-07-02 17:09:48.192 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:48.193 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:48.193 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.name: checkout
+2024-07-02 17:09:48.231 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.name: checkout
+2024-07-02 17:09:48.232 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:48.232 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:48.233 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: click
+2024-07-02 17:09:48.233 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: click
+2024-07-02 17:09:48.233 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before clicking on element.
+2024-07-02 17:09:48.494 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After clicking on element.
+2024-07-02 17:09:48.494 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: click
+2024-07-02 17:09:48.494 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: click
+2024-07-02 17:09:48.496 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:48.497 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:48.497 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.id: first-name
+2024-07-02 17:09:48.528 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.id: first-name
+2024-07-02 17:09:48.528 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:48.528 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:48.528 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:48.528 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:48.528 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.id: last-name
+2024-07-02 17:09:48.540 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.id: last-name
+2024-07-02 17:09:48.540 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:48.540 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:48.540 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:48.540 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:48.540 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.id: postal-code
+2024-07-02 17:09:48.550 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.id: postal-code
+2024-07-02 17:09:48.550 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:48.550 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:48.550 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:48.550 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:48.550 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.name: continue
+2024-07-02 17:09:48.558 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.name: continue
+2024-07-02 17:09:48.559 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:48.559 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:48.559 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: sendKeys
+2024-07-02 17:09:48.559 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: sendKeys
+2024-07-02 17:09:48.559 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before sending keys to element.
+2024-07-02 17:09:48.626 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After sending keys to element.
+2024-07-02 17:09:48.627 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: sendKeys
+2024-07-02 17:09:48.627 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: sendKeys
+2024-07-02 17:09:48.627 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: sendKeys
+2024-07-02 17:09:48.627 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: sendKeys
+2024-07-02 17:09:48.627 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before sending keys to element.
+2024-07-02 17:09:48.648 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After sending keys to element.
+2024-07-02 17:09:48.648 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: sendKeys
+2024-07-02 17:09:48.648 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: sendKeys
+2024-07-02 17:09:48.648 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: sendKeys
+2024-07-02 17:09:48.648 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: sendKeys
+2024-07-02 17:09:48.649 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before sending keys to element.
+2024-07-02 17:09:48.670 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After sending keys to element.
+2024-07-02 17:09:48.670 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: sendKeys
+2024-07-02 17:09:48.670 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: sendKeys
+2024-07-02 17:09:48.670 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: click
+2024-07-02 17:09:48.670 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: click
+2024-07-02 17:09:48.671 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before clicking on element.
+2024-07-02 17:09:48.901 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After clicking on element.
+2024-07-02 17:09:48.901 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: click
+2024-07-02 17:09:48.901 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: click
+2024-07-02 17:09:48.901 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:48.901 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:48.901 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.name: finish
+2024-07-02 17:09:48.921 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.name: finish
+2024-07-02 17:09:48.921 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:48.922 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:48.922 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: click
+2024-07-02 17:09:48.922 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: click
+2024-07-02 17:09:48.923 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before clicking on element.
+2024-07-02 17:09:49.159 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After clicking on element.
+2024-07-02 17:09:49.159 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: click
+2024-07-02 17:09:49.159 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: click
+2024-07-02 17:09:49.160 [main] INFO  com.inet.saucelabs.testCases.SauceDemoPlaceorderTest - checking Order placed successfully....
+2024-07-02 17:09:49.160 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: findElement
+2024-07-02 17:09:49.160 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebDriver method: findElement
+2024-07-02 17:09:49.160 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before finding element by: By.xpath: //h2[@class='complete-header']
+2024-07-02 17:09:49.168 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After finding element by: By.xpath: //h2[@class='complete-header']
+2024-07-02 17:09:49.169 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebDriver method: findElement
+2024-07-02 17:09:49.169 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: findElement
+2024-07-02 17:09:49.169 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling method: getText
+2024-07-02 17:09:49.169 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before calling WebElement method: getText
+2024-07-02 17:09:49.169 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - Before getting text from element.
+2024-07-02 17:09:49.177 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After getting text from element: Thank you for your order!
+2024-07-02 17:09:49.177 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling WebElement method: getText
+2024-07-02 17:09:49.177 [main] INFO  com.inet.saucelabs.listeners.SaucelabsEventListener - After calling method: getText

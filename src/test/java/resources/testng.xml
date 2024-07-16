@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--   <suite name="Practice Suite">
+ <test name="Test Basics 1">
+      <parameter name="browser" value="firefox"/>
+      <classes>
+      <class name="com.inet.practiceCases.GoogleSearchTest"/>
+      </classes>
+  </test> 
+ </suite> -->
+ 
+ <suite name="SauceLabsSanityCases">
+    <test name="Sanity">
+        <classes>
+            <class name="com.inet.saucelabs.testCases.SauceDemoPlaceorderTest"/>
+            <class name="com.inet.saucelabs.testCases.LockedOutUserTest"/>
+        </classes>
+    </test>
+</suite>
